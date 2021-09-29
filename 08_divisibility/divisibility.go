@@ -13,13 +13,14 @@ func main() {
 	if divisor == 0 {
 		fmt.Println(" Division by zero is an invalid operation :( ")
 	} else {
+		quotient := dividend / divisor
 		remainder := dividend % divisor
 		if remainder == 0 {
 			fmt.Println(dividend, "is divisible by", divisor)
-			fmt.Println(dividend, ":", divisor, "=", dividend/divisor)
+			fmt.Println(dividend, ":", divisor, "=", quotient)
 		} else { // is not divisible (the remainder is not equal to 0)
 			fmt.Println(dividend, "is not divisible by", divisor)
-			fmt.Println(dividend, ":", divisor, "=", dividend/divisor, "and", remainder, "is a remainder")
+			fmt.Println(dividend, ":", divisor, "=", quotient, "and", remainder, "is a remainder")
 		}
 	}
 }

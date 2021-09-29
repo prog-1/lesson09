@@ -17,12 +17,6 @@ func main() {
 	// m, n = 5, 7
 	// A better alternative:
 	m, n := 5, 7 // type for `m` and `n` gets derived automatically.
-	// Same operations as for float64 are supported: +, -, *, /
-	// The result of two integers' division is integer (quotient)
-	fmt.Println(m / n) // 0
-	fmt.Println(n / m) // 1
-	// % is an operator to obtain a reminder.
-	fmt.Println(m % n) // 2
 
 	// Conditions
 	// Condition is an expression that evaluates/results in true or false.
